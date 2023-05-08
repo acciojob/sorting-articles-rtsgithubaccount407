@@ -7,6 +7,12 @@
 	list-style-type:square;
 }
 
+.item hr{
+	position:relative;
+    width:533px;
+	right:40px;
+	color:rgb(191, 191, 191)
+}
 .item{
 	position:absolute;
 	left:145px;
