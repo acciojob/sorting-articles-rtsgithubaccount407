@@ -1,24 +1,23 @@
-/*  your css code here. If applicable */
-#band img{
-	width:800px;
-	height:766px
+*{
+	margin:0px;
 }
-.item ul{
+ul li{
+	border-bottom:2px solid black;
+	height:45px;
+    padding-top:20px;
+}
+ 
+#bands{
+	
+/* 	line-height: 35px; */
+	width:300px;
+    background-color:#fff;
+	border-left: 22px solid grey;
+	border-right: 20px solid grey;
+	position: absolute;
+	top: 100px;
+	left: 35%;
 	list-style-type:square;
+ 
 }
-
-.item hr{
-	position:relative;
-    width:533px;
-	right:40px;
-	color:rgb(191, 191, 191);
-}
-.item{
-	position:absolute;
-	left:145px;
-	background-color:white;
-	top:7px;
-	height:767px;
-	width:535px;
-	font-size:30px;
-}
+ 
