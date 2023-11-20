@@ -1,12 +1,17 @@
 *{
 	margin:0px;
 }
+
 ul li{
 	border-bottom:2px solid black;
 	height:45px;
     padding-top:20px;
 }
- 
+ div{
+	display:flex;
+	 justify-content:center;
+	 
+ }
 #bands{
 	
 /* 	line-height: 35px; */
@@ -14,9 +19,11 @@ ul li{
     background-color:#fff;
 	border-left: 22px solid grey;
 	border-right: 20px solid grey;
-	position: absolute;
-	top: 100px;
-	left: 35%;
+	position:absolute;
+	top:1px;
+
+	justify-content:center;
+	
 	list-style-type:square;
  
 }
